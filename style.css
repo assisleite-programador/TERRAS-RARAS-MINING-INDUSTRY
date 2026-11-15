@@ -17,3 +17,11 @@
 
 /* Contador acumulado de produção em cada processo */
 .produced-count{font-weight:800;color:#5d8c32;font-variant-numeric:tabular-nums}
+
+/* Ação clara para iniciar uma nova partida */
+.welcome-actions{display:flex;align-items:center;gap:9px;flex-wrap:wrap;justify-content:flex-end}.new-game-btn{border-color:#d8e1e7;color:#425564;background:#fff}.new-game-btn:hover{background:#f3f7f9}.reset-link{display:block;width:100%;text-align:left;border:1px solid #34495a;border-radius:7px;padding:9px 10px;color:#c3d0d9}.reset-link:hover{background:#1c3347;color:#fff}
+@media(max-width:760px){.welcome-actions{width:100%;justify-content:flex-start}.new-game-btn{flex:1}}
+
+/* Ação global para iniciar uma nova partida */
+.new-game-btn{border:1px solid #d8e6ca;background:#f2f8eb;color:#547d2a;border-radius:8px;padding:9px 12px;font-size:10px;font-weight:800;white-space:nowrap;transition:background .2s,border-color .2s}.new-game-btn:hover{background:#e7f2da;border-color:#bfd6a7}.new-game-btn:focus-visible{outline:3px solid #9acb50;outline-offset:2px}
+@media(max-width:760px){.top-actions{gap:8px}.new-game-btn{padding:8px 9px;font-size:9px}.top-stat small{display:none}}
