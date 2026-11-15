@@ -49,3 +49,10 @@ Esta é uma primeira versão jogável, com valores, rendimentos e custos fictíc
 - Funcionários, energia, manutenção, contratos e logística.
 - Mercado dinâmico e relatórios financeiros.
 - Conteúdo técnico revisado por especialistas em mineração e metalurgia.
+
+
+### Tutorial falado da Missão 2
+- A área de Produção agora inclui um guia visual com cinco etapas para fabricar concentrado mineral.
+- O botão “Ouvir tutorial passo a passo” narra o processo completo e considera o estoque e os créditos atuais do jogador.
+- O botão de áudio da máquina “Britagem e moagem” também explica como produzir concentrado, os insumos, o custo e a quantidade de operações necessárias.
+- A instrução da Missão 2 na Central de Missões foi ampliada para explicar que o concentrado é produzido, não comprado.
