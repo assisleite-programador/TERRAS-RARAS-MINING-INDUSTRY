@@ -17,6 +17,15 @@ Protótipo web de um simulador educativo de mineração, processamento e transfo
 5. Escolha a branch `main` e a pasta `/ (root)`, depois clique em **Save**.
 6. Aguarde a publicação e abra o endereço informado pelo GitHub Pages.
 
+## Assistente de áudio e acessibilidade
+
+- Instruções faladas em português do Brasil para as seções do aplicativo.
+- Botão para ouvir individualmente cada missão, processo industrial, material à venda e equipamento.
+- Leitura automática das confirmações após processar materiais, concluir missões, vender produtos ou comprar equipamentos.
+- Controles para ativar, desligar e repetir a última instrução.
+- A leitura utiliza a voz instalada no navegador/dispositivo por meio da API de síntese de fala. Para melhores resultados, use uma versão atualizada do Google Chrome ou Microsoft Edge e mantenha o volume do dispositivo ligado.
+- Na primeira utilização, pressione **Ativar áudio**. Alguns navegadores só permitem iniciar áudio após uma ação do usuário. A disponibilidade e a qualidade da voz em português dependem do sistema operacional e do navegador.
+
 ## O que já funciona
 
 - Painel financeiro e inventário.
@@ -26,6 +35,7 @@ Protótipo web de um simulador educativo de mineração, processamento e transfo
 - Loja de equipamentos e melhorias.
 - Salvamento automático do progresso no navegador.
 - Layout responsivo para computador e celular.
+- Assistente de voz para orientar usuários com dificuldade de leitura.
 
 ## Importante
 
