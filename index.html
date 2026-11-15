@@ -85,6 +85,17 @@
 
       <section class="view" id="view-production">
         <div class="page-intro"><span class="eyebrow">UNIDADE INDUSTRIAL</span><h1>Centro de <span>produção</span></h1><p>Selecione uma linha produtiva para transformar seus materiais. Cada processo consome insumos e créditos.</p></div>
+        <article class="learning-guide" aria-labelledby="concentrateGuideTitle">
+          <div class="learning-guide-head"><div><span class="eyebrow">AULA PRÁTICA · MISSÃO 02</span><h2 id="concentrateGuideTitle">Como produzir concentrado mineral</h2><p>Não é necessário comprar o concentrado. Você vai fabricá-lo usando o minério bruto na máquina de britagem e moagem.</p></div><span class="learning-guide-icon">🎓</span></div>
+          <ol class="learning-steps">
+            <li><strong>Abra a Produção</strong><span>Você já está no Centro de Produção. Localize o cartão “Britagem e moagem”.</span></li>
+            <li><strong>Confira os materiais</strong><span>Tenha pelo menos 10 unidades de minério bruto e 120 créditos para cada operação.</span></li>
+            <li><strong>Inicie a máquina</strong><span>Clique em “Iniciar processamento”. A máquina transforma 10 unidades de minério bruto em 5 unidades de concentrado mineral.</span></li>
+            <li><strong>Repita quatro vezes</strong><span>Para alcançar a meta de 20 unidades, faça quatro operações: use 40 unidades de minério e 480 créditos.</span></li>
+            <li><strong>Conclua a missão</strong><span>Volte à Central de Missões e clique em “Resgatar missão” quando o estoque mostrar 20 unidades de concentrado.</span></li>
+          </ol>
+          <div class="learning-guide-foot"><span>💡 O concentrado aparecerá automaticamente no seu estoque após cada processamento.</span><button class="audio-btn audio-main" type="button" onclick="speakConcentrateGuide()">🔊 Ouvir tutorial passo a passo</button></div>
+        </article>
         <div class="production-layout"><div class="production-main"><div class="section-heading compact"><div><span class="eyebrow">LINHAS DISPONÍVEIS</span><h2>Processos industriais</h2></div></div><div class="process-grid" id="processGrid"></div></div><aside class="panel production-aside"><span class="eyebrow">RESUMO DE PRODUÇÃO</span><h3>Capacidade da fábrica</h3><div class="factory-visual">⚙</div><div class="capacity-row"><span>Eficiência operacional</span><strong id="efficiencyValue">100%</strong></div><div class="progress-track"><span style="width:100%"></span></div><div class="aside-divider"></div><div class="capacity-row"><span>Produção total</span><strong id="productionTotal">0 un.</strong></div><div class="capacity-row"><span>Equipamentos</span><strong id="equipmentTotal">1</strong></div><p class="small-note">Dica: invista em equipamentos para reduzir custos e melhorar o rendimento das operações.</p><button class="btn btn-outline full" data-goto="upgrades">Ver equipamentos</button></aside></div>
       </section>
 
