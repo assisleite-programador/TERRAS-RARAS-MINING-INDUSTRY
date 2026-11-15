@@ -56,3 +56,12 @@ Esta é uma primeira versão jogável, com valores, rendimentos e custos fictíc
 - O botão “Ouvir tutorial passo a passo” narra o processo completo e considera o estoque e os créditos atuais do jogador.
 - O botão de áudio da máquina “Britagem e moagem” também explica como produzir concentrado, os insumos, o custo e a quantidade de operações necessárias.
 - A instrução da Missão 2 na Central de Missões foi ampliada para explicar que o concentrado é produzido, não comprado.
+
+
+## Começar uma nova partida
+O botão **Começar nova partida** fica disponível na tela inicial e no menu lateral. Ao clicar, o jogo pede confirmação antes de apagar o progresso local da partida atual (créditos, estoque, produção acumulada, missões e equipamentos). Depois da confirmação, a simulação volta ao estado inicial.
+
+
+## Nova partida
+
+O botão **Nova partida**, disponível no topo da aplicação, permite reiniciar a simulação. O jogo pede confirmação antes de apagar o progresso atual. Ao confirmar, dinheiro, estoque, produção acumulada, missões e equipamentos voltam aos valores iniciais. A ação afeta apenas o salvamento local deste navegador e não pode ser desfeita.
