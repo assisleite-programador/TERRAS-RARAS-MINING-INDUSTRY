@@ -32,7 +32,7 @@
       <div class="sidebar-bottom">
         <div class="help-box"><span class="help-icon">i</span><div><strong>Aprenda jogando</strong><p>Conheça a cadeia produtiva das terras raras, da jazida ao produto tecnológico.</p></div></div>
         <button class="reset-link" id="resetGame">↻ Reiniciar simulação</button>
-        <small class="version">PROTÓTIPO EDUCACIONAL · v1.0</small>
+        <small class="version">PROTÓTIPO EDUCACIONAL · v1.1 COM ÁUDIO</small>
       </div>
     </aside>
 
@@ -45,6 +45,10 @@
           <div class="user-avatar">MA</div>
         </div>
       </header>
+      <section class="audio-bar" aria-label="Assistente de áudio">
+        <div class="audio-copy"><span class="audio-symbol">🔊</span><div><strong>Assistente de voz</strong><small id="audioStatus">As instruções podem ser ouvidas em português.</small></div></div>
+        <div class="audio-actions"><button class="audio-btn audio-main" id="audioEnable" type="button">▶ Ativar áudio</button><button class="audio-btn" id="audioRepeat" type="button">↻ Repetir instrução</button><button class="audio-btn" id="audioToggle" type="button" aria-pressed="true">Áudio ligado</button></div>
+      </section>
 
       <section class="view active" id="view-dashboard">
         <div class="welcome-row">
@@ -66,7 +70,7 @@
         </div>
 
         <div class="dashboard-columns">
-          <article class="panel mission-panel"><div class="panel-head"><div><span class="eyebrow">PRÓXIMO OBJETIVO</span><h3 id="nextMissionTitle">Missão 01 · Extração mineral</h3></div><span class="status-pill">EM ANDAMENTO</span></div><p id="nextMissionDesc" class="muted">Extraia seu primeiro lote de minério para iniciar a cadeia produtiva.</p><div class="progress-label"><span>Progresso da missão</span><strong id="missionProgressText">0%</strong></div><div class="progress-track"><span id="missionProgressBar" style="width:0%"></span></div><button class="btn btn-primary" data-goto="missions">Ver missão <span>→</span></button></article>
+          <article class="panel mission-panel"><div class="panel-head"><div><span class="eyebrow">PRÓXIMO OBJETIVO</span><h3 id="nextMissionTitle">Missão 01 · Extração mineral</h3></div><span class="status-pill">EM ANDAMENTO</span></div><p id="nextMissionDesc" class="muted">Extraia seu primeiro lote de minério para iniciar a cadeia produtiva.</p><div class="progress-label"><span>Progresso da missão</span><strong id="missionProgressText">0%</strong></div><div class="progress-track"><span id="missionProgressBar" style="width:0%"></span></div><button class="btn btn-primary" data-goto="missions">Ver missão <span>→</span></button><button class="audio-btn inline-audio" type="button" onclick="speakCurrentMission()">🔊 Ouvir missão</button></article>
           <article class="panel stock-panel"><div class="panel-head"><div><span class="eyebrow">INVENTÁRIO</span><h3>Estoque de materiais</h3></div><button class="text-button" data-goto="production">Produção →</button></div><div id="stockList" class="stock-list"></div></article>
         </div>
         <div class="section-heading lower-heading"><div><span class="eyebrow">SUA JORNADA INDUSTRIAL</span><h2>Etapas da cadeia produtiva</h2></div><button class="text-button" data-goto="missions">Ver todas as missões →</button></div>
